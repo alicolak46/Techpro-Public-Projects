@@ -1,0 +1,523 @@
+MSSubClass: Satışa konu olan konutun tipini tanımlar.
+
+         20 1-HİKAYE 1946 ve DAHA YENİ TÜM TARZLAR
+         30 1-HİKAYE 1945 ve SONRA
+         40 1 KATLI, TÜM YAŞLARDAN TAMAMLANMIŞ ÇATI KATLI
+         45 1-1/2 HİKAYE - TÜM YAŞLAR BİTMEMİŞ
+         50 1-1/2 HİKAYE HER YAŞTAN BİTTİ
+         60 2-KATLI 1946 ve DAHA YENİ
+         70 2-KATLI 1945 ve ESKİ
+         75 2-1/2 HİKAYE HER YAŞTAN
+         80 BÖLÜM VEYA ÇOK SEVİYELİ
+         85 BÖLÜMLÜ FUAYE
+         90 DUBLEKS - TÜM STİLLER VE YAŞLAR
+        120 1-KATLI PUD (Planlı Birim Geliştirme) - 1946 ve DAHA YENİ
+        150 1-1/2 HİKAYELİ PUD - TÜM YAŞLAR
+        160 2 KATLI PUD - 1946 ve DAHA YENİ
+        180 PUD - ÇOK SEVİYELİ - BÖLÜNMÜŞ LEV/FUAYE DAHİL
+        190 2 AİLE DÖNÜŞÜMÜ - TÜM TARZLAR VE YAŞLAR
+
+MSZoning: Satışın genel imar sınıfını tanımlar.
+
+        Bir Tarım
+        C Ticari
+        FV Yüzen Köy Konutu
+        Endüstriyel
+        RH Konut Yüksek Yoğunluklu
+        RL Konut Düşük Yoğunluk
+        RP Konut Düşük Yoğunluklu Park
+        RM Konut Orta Yoğunluk
+
+LotFrontage: Mülke bağlanan caddenin doğrusal ayakları
+
+LotArea: Metrekare cinsinden parsel büyüklüğü
+
+Sokak: Mülke karayolu erişim türü
+
+        Grvl Çakıl
+        Asfalt döşeli
+       
+Sokak: Mülke erişim yolu türü
+
+        Grvl Çakıl
+        Asfalt döşeli
+        Yok Sokak erişimi yok
+
+LotShape: Mülkün genel şekli
+
+        Normal Kayıt
+        IR1 Biraz düzensiz
+        IR2 Orta Derecede Düzensiz
+        IR3 Düzensiz
+       
+LandContour: Mülkün düzlüğü
+
+        Düzey/Seviyeye Yakın Seviye
+        Bnk Banked - Sokak seviyesinden binaya hızlı ve önemli yükseliş
+        HLS Hillside - Bir yandan diğer yana önemli eğim
+        Düşük Depresyon
+
+Yardımcı programlar: Mevcut yardımcı program türleri
+
+        AllPub Tüm kamu Hizmetleri (E,G,W ve S)
+        NoSewr Elektrik, Gaz ve Su (Feptik Tank)
+        NoSeWa Yalnızca Elektrik ve Gaz
+        Yalnızca ELO Elektrik
+
+LotConfig: Parti konfigürasyonu
+
+        İçerideki arsanın içi
+        Köşe Köşe arsası
+        CulDSac Çıkmaz sokak
+        Mülkün 2 tarafında FR2 Cephesi
+        Mülkün 3 tarafında FR3 Cephesi
+
+LandSlope: Mülkün eğimi
+
+        Gtl Hafif eğim
+        Mod Orta Eğim
+        Sev Şiddetli Eğim
+
+Mahalle: Ames şehir sınırları içindeki fiziksel konumlar
+
+        Blmngtn Bloomington Heights
+        Blueste Bluestem
+        BrDale Briardale
+        BrkSide Brookside
+        ClearCr Clear Creek
+        CollgCr Koleji Creek
+        Crawfor Crawford
+        Edwards Edwards
+        Gilbert Gilbert
+        IDOTRR Iowa DOT ve Demiryolu Yolu
+        MeadowV Çayır Köyü
+        Mitchel Mitchell
+        İsimler Kuzey Ames
+        NoRidge Northridge
+        NPkVill Northpark Villa
+        NridgHt Northridge Heights
+        NWAmes Kuzeybatı Ames
+        Eski Şehir Eski Şehir
+        SWISU Güney ve Batı Iowa Eyalet Üniversitesi
+        Sawyer Sawyer
+        SawyerW Sawyer Batı
+        Somerst Somerset
+        StoneBr Taş Deresi
+        Kereste Timberland
+        Veenker Veenker
+
+Koşul1: Çeşitli koşullara yakınlık
+
+        Arter Arteriyel caddeye bitişik
+        Besleyici Besleyici caddenin bitişiğinde
+        Normal Normal
+        RRNn Kuzey-Güney Demiryoluna 200' Mesafede
+        RRAn Kuzey-Güney Demiryolunun Bitişiğinde
+        PosN Olumlu tesis dışı özelliklere yakın: park, yeşil kuşak vb.
+        PosA Olumlu tesis dışı özelliğe bitişik
+        RRNe Doğu-Batı Demiryoluna 200' Mesafede
+        RRAe Doğu-Batı Demiryolunun Bitişiğinde
+
+Koşul2: Çeşitli koşullara yakınlık (birden fazla varsa)
+
+        Arter Arteriyel caddeye bitişik
+        Besleyici Besleyici caddenin bitişiğinde
+        Normal Normal
+        RRNn Kuzey-Güney Demiryoluna 200' Mesafede
+        RRAn Kuzey-Güney Demiryolunun Bitişiğinde
+        PosN Olumlu tesis dışı özelliklere yakın: park, yeşil kuşak vb.
+        PosA Olumlu tesis dışı özelliğe bitişik
+        RRNe Doğu-Batı Demiryoluna 200' Mesafede
+        RRAe Doğu-Batı Demiryolunun Bitişiğinde
+
+BldgType: Konut tipi
+
+        1Fam Tek Aileli Müstakil
+        2FmCon İki aileli Dönüşüm; başlangıçta tek aile konutu olarak inşa edildi
+        Dubleks Dubleks
+        TwnhsE Şehir Evi Son Ünitesi
+        TwnhsI Şehir Evi İç Ünite
+
+HouseStyle: Konut tarzı
+
+        1Hikaye Bir hikaye
+        1.5Fin Bir buçuk kat: 2. seviye tamamlandı
+        1.5Unf Bir buçuk kat: 2. seviye tamamlanmamış
+        2 Hikaye İki hikaye
+        2.5Fin İki buçuk kat: 2. kat tamamlandı
+        2.5Unf İki buçuk kat: 2. seviye tamamlanmamış
+        SFuyer Bölünmüş Fuaye
+        SLvl Bölünmüş Seviye
+
+Genel Kalite: Evin genel malzemesini ve kaplamasını derecelendirir
+
+        10 Çok Mükemmel
+        9 Mükemmel
+        8 Çok İyi
+        7 İyi
+        6 Ortalamanın Üstünde
+        5 Ortalama
+        4 Ortalamanın Altında
+        3 Fuar
+        2 Zayıf
+        1 Çok Zayıf
+
+Genel Koşul: Evin genel durumunu derecelendirir
+
+        10 Çok Mükemmel
+        9 Mükemmel
+        8 Çok İyi
+        7 İyi
+        6 Ortalamanın Üstünde
+        5 Ortalama
+        4 Ortalamanın Altında
+        3 Fuar
+        2 Zayıf
+        1 Çok Zayıf
+
+Kuruluş yılı:Orijinal inşaat tarihi
+
+YearRemodAdd: Tadilat tarihi (tadilat veya ekleme yoksa inşaat tarihiyle aynı)
+
+RoofStyle: Çatı tipi
+
+        Düz Düz
+        üçgen çatı
+        Gambrel Gabrel (Ahır)
+        Kalça Kalça
+        Tavan arası Tavan arası
+        kulübe kulübe
+
+RoofMatl: Çatı malzemesi
+
+        ClyTile Kil veya Fayans
+        CompShg Standart (Kompozit) Kiremit
+        Membran Membran
+        Metal Metal
+        Rulo Rulo
+        Tar&Grv Çakıl ve Katran
+        WdShake Ahşap Sallar
+        WdShngl Ahşap Zona
+
+Dış1: Evin dış kaplaması
+
+        AsbShng Asbest Zona
+        AsphShn Asfalt Zona
+        BrkComm Tuğla Ortak
+        BrkFace Tuğla Yüzü
+        CBlock Kül Blok
+        CemntBd Çimento Levhası
+        HdBoard Sert Tahta
+        ImStuc İmitasyon Sıva
+        MetalSd Metal Dış Cephe Kaplama
+        Diğer Diğer
+        Kontrplak Kontrplak
+        PreCast PreCast
+        Taş Taş
+        Sıva Sıva
+        VinylSd Vinil Dış Cephe Kaplama
+        Wd Sdng Ahşap Dış Cephe Kaplama
+        WdShing Ahşap Zona
+
+Dış2: Evin dış kaplaması (birden fazla malzeme varsa)
+
+        AsbShng Asbest Zona
+        AsphShn Asfalt Zona
+        BrkComm Tuğla Ortak
+        BrkFace Tuğla Yüzü
+        CBlock Kül Blok
+        CemntBd Çimento Levhası
+        HdBoard Sert Tahta
+        ImStuc İmitasyon Sıva
+        MetalSd Metal Dış Cephe Kaplama
+        Diğer Diğer
+        Kontrplak Kontrplak
+        PreCast PreCast
+        Taş Taş
+        Sıva Sıva
+        VinylSd Vinil Dış Cephe Kaplama
+        Wd Sdng Ahşap Dış Cephe Kaplama
+        WdShing Ahşap Zona
+
+MasVnrType: Duvar kaplama tipi
+
+        BrkCmn Tuğla Ortak
+        BrkFace Tuğla Yüzü
+        CBlock Kül Blok
+        Yok Yok
+        Taş Taş
+
+MasVnrArea: Metrekare cinsinden duvar kaplama alanı
+
+ExterQual: Dış cephedeki malzemenin kalitesini değerlendirir
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Ortalaması/Tipik
+        Fa Fuarı
+        Po Zavallı
+
+ExterCond: Dış cephedeki malzemenin mevcut durumunu değerlendirir
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Ortalaması/Tipik
+        Fa Fuarı
+        Po Zavallı
+
+Vakıf: Vakıf türü
+
+        BrkTil Tuğla ve Kiremit
+        CBlock Kül Blok
+        PConc Dökülmüş Beton
+        Döşeme Döşeme
+        Taş Taş
+        Ahşap Ahşap
+
+BsmtQual: Bodrum katının yüksekliğini değerlendirir
+
+        Ex Mükemmel (100+ inç)
+        Gd İyi (90-99 inç)
+        TA Tipik (80-89 inç)
+        Fa Fuarı (70-79 inç)
+        Po Zayıf (<70 inç
+        Yok Bodrum Yok
+
+BsmtCond: Bodrumun genel durumunu değerlendirir
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Tipik - hafif neme izin verilir
+        Fa Fair - nem veya bir miktar çatlama veya çökme
+        Po Poor - Şiddetli çatlama, çökelme veya ıslaklık
+        Yok Bodrum Yok
+
+BsmtExposure: Grev veya bahçe seviyesindeki duvarları ifade eder
+
+        Gd İyi Pozlama
+        Av Ortalama Pozlama (bölünmüş seviyeler veya girişler genellikle ortalama veya daha yüksek puan alır)
+        Mn Minimum Maruziyet
+        Hayır Maruz Kalma Yok
+        Yok Bodrum Yok
+
+BsmtFinType1: Bodrumun bitmiş alanının derecelendirmesi
+
+        GLQ İyi Yaşam Alanları
+        ALQ Ortalama Yaşam Alanları
+        BLQ Ortalamanın Altında Yaşam Alanı
+        Dinlenme Ortalama Dinlenme Odası
+        LwQ Düşük Kalite
+        Bitmemiş
+        Yok Bodrum Yok
+
+BsmtFinSF1: Tip 1 bitmiş metrekare
+
+BsmtFinType2: Bodrum katındaki bitmiş alanın derecelendirmesi (birden fazla tür varsa)
+
+        GLQ İyi Yaşam Alanları
+        ALQ Ortalama Yaşam Alanları
+        BLQ Ortalamanın Altında Yaşam Alanı
+        Dinlenme Ortalama Dinlenme Odası
+        LwQ Düşük Kalite
+        Bitmemiş
+        Yok Bodrum Yok
+
+BsmtFinSF2: Tip 2 bitmiş metrekare
+
+BsmtUnfSF: Bodrum alanının tamamlanmamış metrekaresi
+
+TotalBsmtSF: Bodrum alanının toplam metrekaresi
+
+Isıtma: Isıtma türü
+
+        Zemin Kat Fırını
+        GasA Gazlı sıcak hava fırını
+        GasW Gazlı sıcak su veya buharlı ısı
+        Yerçekimi Yerçekimi fırını
+        OthW Gaz dışında sıcak su veya buhar ısısı
+        Duvar Duvar fırını
+
+IsıtmaQC: Isıtma kalitesi ve durumu
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Ortalaması/Tipik
+        Fa Fuarı
+        Po Zavallı
+
+CentralAir: Merkezi klima
+
+        Hayır Hayır
+        E Evet
+
+Elektrik: Elektrik sistemi
+
+        SBrkr Standart Devre Kesiciler ve Romex
+        FuseA Sigorta Kutusu 60 AMP'nin üzerinde ve tüm Romex kablolama (Ortalama)
+        FuseF 60 AMP Sigorta Kutusu ve çoğunlukla Romex kablolaması (Adil)
+        FuseP 60 AMP Sigorta Kutusu ve çoğunlukla düğme ve tüp kablolaması (zayıf)
+        Karışık Karışık
+
+1stFlrSF: Birinci Kat metrekare
+ 
+2ndFlrSF: İkinci katın metrekaresi
+
+LowQualFinSF: Düşük kaliteli tamamlanmış metrekareler (tüm katlar)
+
+GrLivArea: Zemin üstü (zemin) yaşam alanı metrekare
+
+BsmtFullBath: Bodrum katındaki tam banyolar
+
+BsmtHalfBath: Bodrum yarım banyolar
+
+FullBath: Zeminin üzerinde tam banyolar
+
+HalfBath: Zemin üstü yarım banyolar
+
+Yatak odası: Zeminin üzerindeki yatak odaları (bodrum katındaki yatak odaları dahil DEĞİLDİR)
+
+Mutfak: Üst sınıf mutfaklar
+
+KitchenQual: Mutfak kalitesi
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Tipik/Ortalama
+        Fa Fuarı
+        Po Zavallı
+       
+TotRmsAbvGrd: Toplam sınıf üstü odalar (banyolar dahil değildir)
+
+İşlevsel: Ev işlevselliği (Kesintiler garanti edilmedikçe tipik olduğunu varsayalım)
+
+        Tip Tipik İşlevsellik
+        Min1 Küçük Kesintiler 1
+        Min2 Küçük Kesintiler 2
+        Mod Orta Düzeyde Kesintiler
+        Maj1 Büyük Kesintiler 1
+        Maj2 Büyük Kesintiler 2
+        Sev Ağır Hasarlı
+        Yalnızca Sal Kurtarma
+
+Şömineler: Şömine sayısı
+
+FireplaceQu: Şömine kalitesi
+
+        Ex Excellent - Olağanüstü Yığma Şömine
+        Gd Good - Ana seviyede Yığma Şömine
+        TA Ortalaması - Ana yaşam alanında Prefabrik Şömine veya bodrum katında Yığma Şömine
+        Fa Fuarı - Bodrumda Prefabrik Şömine
+        Po Poor - Ben Franklin Sobası
+        Yok Şömine Yok
+
+Garaj Türü: Garaj konumu
+
+        2Tip Birden fazla garaj türü
+        Attchd Evli
+        Bodrum Bodrum Garajı
+        Yerleşik Yerleşik (Evin garaj kısmı - genellikle garajın üstünde oda bulunur)
+        CarPort Araba Limanı
+        Detchd Evden Ayrılmış
+        Yok Garaj Yok
+
+GarageYrBlt: Garajın yapıldığı yıl
+
+GarageFinish: Garajın iç kaplaması
+
+        Fin Bitmiş
+        RFn Kaba Bitirilmiş
+        Bitmemiş
+        Yok Garaj Yok
+
+GarageCars: Araç kapasitesine göre garajın boyutu
+
+GarageArea: Garajın metrekare cinsinden boyutu
+
+GarageQual: Garaj kalitesi
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Tipik/Ortalama
+        Fa Fuarı
+        Po Zavallı
+        Yok Garaj Yok
+
+GarageCond: Garaj durumu
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Tipik/Ortalama
+        Fa Fuarı
+        Po Zavallı
+        Yok Garaj Yok
+
+PavedDrive: Asfaltlanmış araba yolu
+
+        Y Kaplamalı
+        P Kısmi Kaplama
+        N Kir/Çakıl
+
+WoodDeckSF: Metrekare cinsinden ahşap deck alanı
+
+OpenPorchSF: Metrekare cinsinden açık sundurma alanı
+
+Kapalı Sundurma: Metrekare cinsinden kapalı sundurma alanı
+
+3SsnPorch: Metrekare cinsinden üç mevsim sundurma alanı
+
+ScreenPorch: Metrekare cinsinden ekran sundurma alanı
+
+PoolArea: Metrekare cinsinden havuz alanı
+
+PoolQC: Havuz kalitesi
+
+        Eski Mükemmel
+        aman tanrım iyi
+        TA Ortalaması/Tipik
+        Fa Fuarı
+        Yok Havuz Yok
+
+Çit: Çit kalitesi
+
+        GdPrv İyi Gizlilik
+        MnPrv Minimum Gizlilik
+        GdWo İyi Ahşap
+        MnWw Minimum Ahşap/Tel
+        Yok Çit Yok
+
+MiscFeature: Diğer kategorilerde yer almayan çeşitli özellikler
+
+        Asansör
+        Gar2 2. Garaj (garaj bölümünde açıklanmadıysa)
+        Diğer Diğer
+        Baraka Baraka (100 SF'nin üzerinde)
+        TenC Tenis Kortu
+        Yok Yok
+
+MiscVal: Çeşitli özelliklerin $Değeri
+
+MoSold: Satılan Ay (MM)
+
+Satıldığı Yıl: Satış Yılı (YYYY)
+
+Satış Türü: Satış türü
+
+        WD Garanti Belgesi - Geleneksel
+        CWD Garanti Senedi - Nakit
+        VWD Garanti Belgesi - VA Kredisi
+        Yeni Ev yeni inşa edildi ve satıldı
+        COD Mahkeme Memuru Tapu/Emlak
+        Con Sözleşme %15 Peşinat normal koşullar
+        ConLw Sözleşmesi Düşük Peşinat ve düşük faiz
+        ConLI Sözleşmesi Düşük Faiz
+        ConLD Sözleşmesi Düşük Düşüş
+        Diğer Diğer
+
+Satış Durumu: Satış Durumu
+
+        Normal Normal Satış
+        Anormal Anormal Satış - ticaret, haciz, açığa satış
+        AdjLand Bitişik Arsa Alımı
+        Alloca Tahsisi - ayrı tapulara sahip iki bağlantılı mülk, genellikle garaj üniteli apartman dairesi
+        Aile üyeleri arasında Aile İndirimi
+        Kısmi Ev son değerlendirmede tamamlanmamıştı (Yeni Evler ile ilişkili)s
